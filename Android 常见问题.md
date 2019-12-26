@@ -442,7 +442,7 @@ info.setRobotCode("your robot code");
 
 
 
-###21、消息撤回
+### 21、消息撤回
 * 相似问题：   
 	为什么没有消息撤回功能？
 	消息撤回不生效？
@@ -454,7 +454,7 @@ info.setRobotCode("your robot code");
 
 
 
-###22、未读消息数
+### 22、未读消息数
 * 相似问题：   
 	未读消息获取不到？
 	未读消息不准确？
@@ -489,7 +489,7 @@ info.setRobotCode("your robot code");
 
 
 
-###23、如何配置询前表单
+### 23、如何配置询前表单
 * 相似问题：   
 	如何单独关闭询前表单？
 	
@@ -512,7 +512,7 @@ infomation.setCloseInquiryForm(false)
 
 
 
-24、如何使用客户服务中心
+### 24、如何使用客户服务中心
 
 * 相似问题：   
 	什么是客户服务中心？
@@ -537,7 +537,7 @@ SobotApi.openSobotHelpCenter(Context,infomation);
 
 
 
-###25、如何设置文字颜色
+### 25、如何设置文字颜色
 
 * 相似问题：   
 	如何设置文字颜色？
@@ -554,7 +554,7 @@ SobotApi.openSobotHelpCenter(Context,infomation);
 ```
 【[参考文档](https://www.sobot.com/developerdocs/app_sdk/android.html#_4-4-%E4%BC%9A%E8%AF%9D%E9%A1%B5%E9%9D%A2%E8%87%AA%E5%AE%9A%E4%B9%89ui%E8%AE%BE%E7%BD%AE)】
 
-###26、如何替换相关图片
+### 26、如何替换相关图片
 
 * 相似问题：
     图片替换
@@ -563,7 +563,7 @@ SobotApi.openSobotHelpCenter(Context,infomation);
   在app项目中drawable文件夹下添加要替换图片的同名文件，要2倍图和3倍图同时添加。
 
 
-###27、如果支持多语言
+### 27、如果支持多语言
 * 相似问题：   
 	支持哪些语言？
 	没有我要的语言？
@@ -571,7 +571,7 @@ SobotApi.openSobotHelpCenter(Context,infomation);
 智齿Android SDK的多语言文件在value_xx中，目前已包含中文、英文、繁体中文、阿拉伯语，如果要添加更多语言，在app项目中添加相应国家的string.xml文件即可 [参考文档](https://www.sobot.com/developerdocs/app_sdk/android.html)
 
 
-###28、返回SDK时如何触发评价 
+### 28、返回SDK时如何触发评价 
 * 相似问题：   
 	评价完如何结束会话？   
 	返回评价？   
@@ -644,7 +644,7 @@ info.setShowCloseSatisfaction(false);
 ```
 
 
-###30、添加标签链接
+### 30、添加标签链接
 * 相似问题：   
 	什么是标签链接？   
 	标签链接怎么监听？   
@@ -684,7 +684,7 @@ SDK所有链接监听，监听方法如下：
 
 
 
-###31、2.7.14和2.8.2有什么区别
+### 31、2.7.14和2.8.2有什么区别
 * 相似问题：   
 	为什么要升级最新版本？   
 	旧版本还可以使用吗？
@@ -699,7 +699,7 @@ SDK所有链接监听，监听方法如下：
 3 聊天框不在显示头像和名称；  
 
 
-###32、如何设置录音开关，实现的流程是什么
+### 32、如何设置录音开关，实现的流程是什么
 * 相似问题：   
 	如何关闭机器人语音？     
 	机器人语音无法识别？     
@@ -728,7 +728,7 @@ info.setUseVoice(false);
 		
  
 
-###33、如何使用地理位置信息
+### 33、如何使用地理位置信息
 * 相似问题：   
 	怎么发送位置？        
 	如何获取坐标？       
@@ -746,7 +746,7 @@ info.setUseVoice(false);
 
 
 
-###34、如何使用商品或订单卡片信息
+### 34、如何使用商品或订单卡片信息
 * 相似问题：   
 	如何发送商品信息？        
 	如何自动发送商品信息？       
@@ -809,7 +809,7 @@ info.setUseVoice(false);
 
 	
 
-###35 aar 集成问题
+### 35 aar 集成问题
 * 相似问题：   
 	无法搜索到当前版本？      
 	搜索到当前版本但是有缓存?      
@@ -836,7 +836,7 @@ info.setUseVoice(false);
 
 
 
-###36、APICloud版本何时更新
+### 36、APICloud版本何时更新
 * 相似问题：   
 	APICloud？   
 	
@@ -844,7 +844,7 @@ APICloud版本需要对方审核，目前审核周期为一周；鉴于APICloud�
 
 
 
-###37、什么是离线消息
+### 37、什么是离线消息
 * 相似问题：   
 	离线消息？
 	收不到消息?    
@@ -899,7 +899,7 @@ SobotApi.getUnreadMsg(Context context,String uid);//如果您没有在informatio
 ```
 
 
-###38、如何离线用户
+### 38、如何离线用户
 * 相似问题：    
   离线用户？    
   结束会话？    
@@ -922,7 +922,7 @@ SobotApi.exitSobotChat(context);;
 ```
 
 
-###39、如何自定义顶部标题 
+### 39、如何自定义顶部标题 
 * 相似问题：    
 	自定义标题？    
 	不显示名称？   
@@ -957,22 +957,7 @@ SobotApi.setChatTitleDisplayMode(getApplicationContext(),
  */
 SobotApi.setChatAvatarDisplayMode(getApplicationContext(),SobotChatAvatarDisplayMode.Default, "https://sobot-test.oss-cn-beijing.aliyuncs.com/console/66a522ea3ef944a98af45bac09220861/userImage/20191024164346682.PNG", false);
 
-```
-
-
-###40、关键字转人工
-* 相似问题：    
-	关键字转人工？
-	智能转人工？       
-
-
-
-
-
-###41、智能路由
-* 相似问题：  
-	排队优先级设置？    
-	优先接待？    
+``` 
 
 
 
